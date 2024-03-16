@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: 100%;  
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 650px;
+    margin-inline: auto;
+    margin-top: 100px;
+    overflow: hidden;
+    border-radius: 20px;
+   }
+.parent>*{
+    flex: 1;
+}
+.page {
+    background-color: white;
+    padding-inline: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content:center ;
+    }
+    h1{
+        font-size: 45px;
+        font-family: Fraunces;
+        font-weight: bold;
+        
+    }
+    h5{
+        font-family: Montserrat;
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+    font-size: 14px;
+    }
+    main{
+        font-family: Montserrat;
+        color: hsl(228, 12%, 48%);
+    } 
+.price{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+.price>*{
+    flex: 1;
+}
+.p1{
+    font-family: Fraunces;
+    font-size: 40px;
+    color: green;
+    font-style: italic;
+}
+.p2{
+    text-decoration:line-through;
+    font-family: Montserrat;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer a{
+    background-color: green;
+    display: inline-block;
+    width: 100%;
+    padding-block: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
